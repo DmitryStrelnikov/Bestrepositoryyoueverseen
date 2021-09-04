@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8">
+<title>Форма регистрации</title>
+<link rel="stylesheet" href="css/stylelr4.css" type="text/css">
+</head>
+<body>
+<header>
+<div class="headerButtons">
+<button class="simpleButton">Главная</button>
+<button class="simpleButton">Новости</button>
+<button class="simpleButton">Форум</button>
+<button class="wideButton simpleButton">Инструкция</button>
+</div>
+<div class="imageheader">
+<div class="imageBackground">
+<svg width="1440" height="120" viewBox="0 0 1440 120"
+fill="none" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="1440" height="120" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0"
+patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="translate(0 -0.5)
+scale(0.00117371 0.0140845)"/>
+</pattern>
+<image id="image0" width="852" height="142"
+xlink:href="!!!!!!!”
+</defs>
+</svg>
+</div>
+<div class="headerButtons">
+<button class="wideButton1">Вход</button>
+</div>
+<div class="imageBook">
+<svg width="237" height="200" viewBox="0 0 237 200"
+fill="none" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="237" height="200" fill="url(#pattern1)"/>
+<defs>
+<pattern id="pattern1"
+patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image1" transform="translate(-0.0353659)
+scale(0.009074 0.0107527)"/>
+</pattern>
+<image id="image1" width="118" height="93"
+xlink:href="data!!!!!!”
+</defs>
+</svg>
+</div>
+</div>
+</header>
+<main>
+<div class="form">
+<h1>Регистрация пользователя</h1>
+<div class="field">
+ <label for="login">Логин</label>
+6
+<input type="text" id="login" placeholder =
+"Введите Логин" >
+</div>
+<div class="field">
+ <label for="pass">Пароль</label>
+<input type="text" id="pass" placeholder =
+"Введите пароль" >
+</div>
+<div class="field">
+ <label for="repeatPass">Подтвердите пароль</label>
+<input type="text" id="repeatPass" placeholder =
+"Введите пароль" >
+</div>
+<div class="field">
+ <label for="mail">Адрес e-mail</label>
+<input type="email" id="mail" placeholder =
+"Введите e-mail" >
+</div>
+<div class="field">
+ <label for="phone">Номер телефона</label>
+<input type="tel" id="phone" placeholder =
+"Введите номер телефона" >
+</div>
+<div class="selectSex">
+ <label class="sexLabel" for="sex">Укажите
+пол</label>
+<input type="radio" id="sex"
+name="contact" value="M">
+<label class="specificSex" for="sex">м</label>
+<input type="radio" id="sex"
+name="contact" value="G">
+<label class="specificSex" for="sex">ж</label>
+</div>
+<div class="field">
+ <label for="phone">Выберите желаемый статус</label>
+<select class="readerType">
+<option>Читатель</option>
+<option>Vip читатель</option>
+<option>Редактор</option>
+<option>Автор</option>
+</select>
+</div>
+<div class="field">
+ <label for="birthday">Введите дату рождения</label>
+<input type="date" id="birthday" placeholder =
+"01.01.2000" >
+</div>
+<div class = "center submit">
+7
+<button class="wideButton simpleButton
+submitButton">Зарегистрироваться</button>
+</div>
+</div>
+</main>
+</body>
+<footer>
+<div class="footerContaner">
+<div class="footerInfo footerBlock">
+<div class="info">Информационный ресурс</div>
+<div>Всеобщая библиотека</div>
+</div>
+<div class="footerContacts footerBlock">
+<div class="footerContact">
+Тел.: 8 (812) 777-77-77
+</div>
+<div class="footerContact">
+<div class="contactLabel">E-mail:</div>
+<div class="contactContaner">
+<div class="contact">per.alex@gmail.com
+</div>
+<div class="contact">gub.vlad@rgdb.ru </div>
+</div>
+</div>
+</div>
+<div class="footerBlock">
+<button class="footerButton">Обратная связь</button>
+</div>
+</div>
+</footer>
+</html>
